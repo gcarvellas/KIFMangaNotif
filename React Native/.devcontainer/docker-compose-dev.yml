@@ -1,11 +1,8 @@
 version: '3'
 services:
   react-native:
-    image: thyrlian/android-sdk:latest
+    image: node:19.4.0
     network_mode: host
     volumes:
       - ../:/app
-      - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - DISPLAY
     command: /bin/sh -c "while sleep 1000; do :; done"

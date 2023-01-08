@@ -1,1 +1,0 @@
-avdmanager create avd --name devcontainer --package 'system-images;android-21;google_apis;armeabi-v7a'
