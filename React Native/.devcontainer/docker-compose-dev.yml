@@ -1,8 +1,0 @@
-version: '3'
-services:
-  react-native:
-    image: node:19.4.0
-    network_mode: host
-    volumes:
-      - ../:/app
-    command: /bin/sh -c "while sleep 1000; do :; done"
